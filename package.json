@@ -4,6 +4,9 @@
   "description": "抓取页面的图片",
   "main": "index.js",
   "scripts": {
+    "server": "ts-node ts/app.ts",
+    "clear": "rm -rf dist/*.*",
+    "tscw": "npm run clear && tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/jfengsky/noun_pictures/issues"
   },
-  "homepage": "https://github.com/jfengsky/noun_pictures#readme"
+  "homepage": "https://github.com/jfengsky/noun_pictures#readme",
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "koa": "^2.6.2",
+    "typescript": "^3.2.2"
+  }
 }
