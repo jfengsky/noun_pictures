@@ -1,0 +1,19 @@
+{
+  "name": "noun_pictures",
+  "version": "1.0.0",
+  "description": "抓取页面的图片",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfengsky/noun_pictures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfengsky/noun_pictures/issues"
+  },
+  "homepage": "https://github.com/jfengsky/noun_pictures#readme"
+}
