@@ -6,5 +6,4 @@ app.use(ctx => {
   ctx.body = 'Hello Koa';
 });
 
-app.listen(3200)
-console.log('http://localhost:3200')
+app.listen(3200, ()=> console.log('http://localhost:3200') )
